@@ -1,0 +1,32 @@
+// Use // to add comment
+// Line with object must start with #
+// Multi-line object not allowed
+
+// CAMERA : x_pos, y_pos, z_pos ; x_look_at, y_look_at, z_look_at; x_up, y_up, z_up
+#CAMERA : 0, 0, -20; 0, 0, 5; 0, 1, 0
+
+// SPHERE : x_pos, y_pos, z_pos ; radius ; x_rot, y_rot, z_rot; x_trans, y_trans, z_trans; material
+#SPHERE: 0, 2, 0; 0.50 ; 0, 0, 0; 0, 0, 0; 1
+
+// PLANE : x_pos, y_pos, z_pos ; x_normale, y_normale, z_normale ; x_trans, y_trans, z_trans; material
+#PLANE : 0, -2, 0; 0 , 1, 0; 0, 0, 0 ; 2
+#PLANE : 0, 0, 15; 0 , 0, 1; 0, 0, 0 ; 3
+
+// CYLINDER : x_pos, y_pos, z_pos ; x_rot, y_rot, z_rot; x_trans, y_trans, z_trans; radius ; id
+#CYLINDER : -2, 0, 3; 0, 0, 0 ; 0,0,0 ; 1 ; 4
+
+// CONE : x_pos, y_pos, z_pos ; x_rot, y_rot, z_rot; x_trans, y_trans, z_trans; radius ; id
+# CONE : 1, -1.5, 5; 0, 0, ; 0,0,0 ; 20 ; 5
+
+// MATERIAL r_color, g_color, b_color ; shiness
+#MATERIAL : 1, 1, 1 ; 0.97
+#MATERIAL : 1, 0, 0 ; 1
+#MATERIAL : 0.25, 0.74, 0.84 ; 1
+#MATERIAL : 0.7, 0.50, 0.25 ; 0.2
+#MATERIAL : 0.7, 0.80, 0.95 ; 0.2
+
+// LIGHT : x_pos, y_pos, z_pos; r_color, g_color, b_color
+#LIGHT : -7, 2, -5 ; 1, 0.7, 0.4
+//#LIGHT : 0, -1, -5 ; 0.2, 0.6, 1
+#LIGHT : 5, -2, -5 ;  1, 0.7, 0.4
+//#LIGHT : 0, 5, -5 ; 0.2, 0.6, 1

@@ -1,0 +1,45 @@
+// Use // to add comment
+// Line with object must start with #
+// Multi-line object not allowed
+
+// 1 sphere, 1 lumiere, vue de face
+
+// CAMERA : x_pos, y_pos, z_pos ; x_look_at, y_look_at, z_look_at; x_up, y_up, z_up
+#CAMERA : 9, 0, -30 ; 0, 0, 10; 0, 1, 0
+
+// SPHERE : x_pos, y_pos, z_pos ; radius ; x_rot, y_rot, z_rot; x_trans, y_trans, z_trans; material
+
+#SPHERE:  2, 2, 10; 1.5 ; 0, 0, 0; 0, 0, 0; 1
+#SPHERE:  -2, 2, 10; 1.5 ; 0, 0, 0; 0, 0, 0; 2
+#SPHERE:  0, 0, 10; 3 ; 0, 0, 0; 0, 0, 0; 2
+#SPHERE:  1.2, 1, 7.8; 0.5 ; 0, 0, 0; 0, 0, 0; 4
+#SPHERE:  -1.2, 1, 7.8; 0.5 ; 0, 0, 0; 0, 0, 0; 5
+#SPHERE:  0, -0.6, 8.5; 2 ; 0, 0, 0; 0, 0, 0; 6
+#SPHERE:  0, 0.5, 7.2; 0.4 ; 0, 0, 0; 0, 0, 0; 7
+#SPHERE:  0, -0.5, 7; 0.5 ; 0, 0, 0; 0, 0, 0; 8
+
+// CONE : x_pos, y_pos, z_pos ; x_rot, y_rot, z_rot; x_trans, y_trans, z_trans; radius ; id
+# CONE : 5, 0, 10;  0,0,0; 0,0,0 ; 20 ; 9
+# CONE : -5, 0, 10;  0,0,0; 0,0,0 ; 20 ; 10
+
+// PLANE : x_pos, y_pos, z_pos ; x_normale, y_normale, z_normale ; x_trans, y_trans, z_trans ; material
+#PLANE : 0, -3, 0; 0 , 1, 0; 0, 0, 0 ; 11
+
+
+// MATERIAL r_color, g_color, b_color
+#MATERIAL : 0.66, 0.4, 0.2 ; 1
+#MATERIAL : 0.66, 0.4, 0.2 ; 1
+#MATERIAL : 0.66, 0.4, 0.2 ; 1
+#MATERIAL : 0.25, 0.76, 1; 0.96
+#MATERIAL : 0.25, 0.76, 1 ; 0.96
+#MATERIAL : 0.66, 0.4, 0.2 ; 1
+#MATERIAL : 0.4, 0.4 , 0.1 ; 0.96
+#MATERIAL : 0, 0 , 0; 1
+#MATERIAL : 0.4, 0.4 , 0.1; 1
+#MATERIAL : 0.4, 0.4 , 0.1 ; 1
+#MATERIAL : 0.7, 0.50, 1 ; 1
+
+
+// LIGHT : x_pos, y_pos, z_pos; r_color, g_color, b_color
+#LIGHT : 5, 3, 0 ; 1, 1, 1
+#LIGHT :  -5, 3, 0 ; 1, 1, 1

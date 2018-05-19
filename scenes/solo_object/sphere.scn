@@ -1,0 +1,15 @@
+// Use // to add comment
+// Line with object must start with #
+// Multi-line object not allowed
+
+// CAMERA : x_pos, y_pos, z_pos ; x_look_at, y_look_at, z_look_at; x_up, y_up, z_up
+#CAMERA : 0, 0, 0 ; 0, 0, 5; 0, 1, 0
+
+// SPHERE : x_pos, y_pos, z_pos ; radius ; x_rot, y_rot, z_rot; x_trans, y_trans, z_trans; material
+#SPHERE:  0, 0, 10; 1 ; 0, 0, 0; 0, 0, 0;1;
+
+// MATERIAL r_color, g_color, b_color; shiness
+#MATERIAL : 0.1, 0.25, 1 ; 0.99
+
+// LIGHT : x_pos, y_pos, z_pos; r_color, g_color, b_color
+#LIGHT : 3, 4, 0 ; 1, 1, 1;
